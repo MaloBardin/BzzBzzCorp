@@ -1,0 +1,52 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: darkgray;
+}
+
+
+
+
+.item{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+    flex: 1 300px;
+    flex-flow: row wrap;
+    width: 30em;
+    height: 17.5em;
+}
+
+
+/* Add your flexbox CSS below here */
+
+.container {
+    display: flex;
+    flex-flow: column;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.contain{
+    display: flex;
+    flex-flow: wrap row;
+    background-color: rebeccapurple;
+}
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: yellow;
+}
+
+
+
+
+
+
