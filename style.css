@@ -9,44 +9,67 @@ body {
 
 
 
-
-.item{
-    padding: 10px;
-    margin: 10px;
-    background: aqua;
-    flex: 1 300px;
-    flex-flow: row wrap;
-    width: 30em;
-    height: 17.5em;
-}
-
-
 /* Add your flexbox CSS below here */
 
 .container {
     display: flex;
-    flex-flow: column;
+    flex-flow: row wrap;
     background-color: antiquewhite;
     height: 100vh;
+    align-items: stretch;
 }
-.contain{
+.block{
+
     display: flex;
-    flex-flow: wrap row;
+    flex-direction: column;
+    flex-grow: 1;
+
+}
+.block-right{
+    background-color: yellow;
+
+}
+.block-left{
+    background-color: red;
+}
+.block-center{
+    background-color: green;
+}
+.item{
+    text-align: center;
+    flex-grow: 1;
+
+
+}
+.item-1{
     background-color: rebeccapurple;
 }
-.header{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: black;
+.item-2{
+    background-color: darkcyan;
 }
-.footer{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: yellow;
+.item-3{
+    background-color: darkblue;
 }
+.item-4{
+    background-color: pink;
+}
+.item-5{
+    border-color: darkcyan;
+    border-radius:5px;
+    flex: 2;
 
-
-
-
+}
+.item-6{
+    background-color: yellowgreen;
+}
+.item-7{
+    background-color: beige;
+}
+.item-8{
+    background-color: brown;
+}
+.item-9{
+    background-color: blue;
+}
 
 
